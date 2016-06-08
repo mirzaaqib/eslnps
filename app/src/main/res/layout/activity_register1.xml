@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/rgs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name "
+        android:layout_height="wrap_content"
+        android:textColor="#050505" />
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Email or Phone number "
+        android:layout_height="wrap_content"
+        android:textColor="#080707" />
+    <EditText
+        android:id="@+id/EmailorPhonenumber"
+        android:layout_width="match_parent"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password "
+        android:layout_height="wrap_content"
+        android:textColor="#080808" />
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:id="@+id/textView"
+        android:textColor="#0a0a0a" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Gender"
+        android:layout_height="wrap_content"
+        android:textColor="#0b0a0a" />
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:id="@+id/radioButton2"
+        android:checked="false"
+        android:layout_weight="0.11" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:id="@+id/radioButton"
+        android:checked="false"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Address "
+        android:layout_height="wrap_content"
+        android:textColor="#080808" />
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content"
+        android:textColor="#0b0a0a" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:text="register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

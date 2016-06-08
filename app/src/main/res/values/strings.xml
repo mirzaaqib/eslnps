@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">my project</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_log">log</string>
+    <string name="title_activity_register1">Register1</string>
+    <string name="title_activity_front">front</string>
+    <string name="title_activity_frontpage">frontpage</string>
+</resources>
